@@ -1,6 +1,6 @@
 {
   "name": "name-initials",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A JavaScript utility library to extract initials from names.",
   "main": "lib/name-initials.js",
   "scripts": {
