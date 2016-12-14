@@ -9,3 +9,6 @@
 
 # src directory (lib will be published with the compiled version)
 /src
+
+# Test npm package files
+*.tgz
