@@ -2,7 +2,8 @@ module.exports = {
     "env": {
         "browser": true,
         "es6": true,
-        "node": true
+        "node": true,
+        "jest": true,
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -29,7 +30,7 @@ module.exports = {
         "comma-spacing": [
             "error",
             {
-                "after": false,
+                "after": true,
                 "before": false
             }
         ],
@@ -74,7 +75,6 @@ module.exports = {
         "lines-around-comment": "error",
         "lines-around-directive": "error",
         "max-depth": "error",
-        "max-len": "error",
         "max-lines": "error",
         "max-nested-callbacks": "error",
         "max-params": "error",

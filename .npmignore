@@ -1,0 +1,11 @@
+# Random hidden files
+.*
+
+# Test files
+/__tests__
+
+# Code coverage test results
+/coverage
+
+# src directory (lib will be published with the compiled version)
+/src

@@ -1,4 +1,5 @@
-import nameInitials from '../name-initials'
+// Always run from the compiled version which is the one published
+import nameInitials from '../lib/name-initials';
 
 describe('name-initials', () => {
   // E. => E
