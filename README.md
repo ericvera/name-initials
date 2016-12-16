@@ -2,7 +2,7 @@
 A JavaScript utility library to extract initials from names.
 
 <p>
-  <a href="https://npmjs.org/package/nzme-initials">
+  <a href="https://npmjs.org/package/name-initials">
     <img src="https://img.shields.io/npm/v/name-initials.svg?style=flat-square">
   </a>
 </p>
