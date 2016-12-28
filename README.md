@@ -35,9 +35,26 @@ console.log(initials);
 // Output: JS
 ```
 
-# Specifications
-See the ````__tests__```` directory on the GitHub repository.
-
+# Input => Output
+* E. => E
+* Eric => E
+* E. Vera => EV
+* Eric V. => EV
+* Eric A. E. => EA
+* Eric A. E. Vera => EV
+* Eric A. Vera => EV
+* Eric A. Vera Perez => EV
+* Eric Vera-Perez => EV
+* Eric A. Vera-Perez => EV
+* Eric Vera Perez => EV
+* Eric A. de Vera Perez => ED
+* Eric A. de Vera-Perez => ED
+* Eric A. Perez-de Vera => EP
+* Eric A. Perez de Vera => EP
+* Eric (Instructor Somewhere) => E
+* Éric Vera => ÉV
+* Vera-Perez => VP
+* Eric "No Nickname" Vera => E
 
 # License
 [MIT](https://github.com/ericvera/name-initials/blob/master/LICENSE)
